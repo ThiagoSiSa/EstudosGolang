@@ -12,6 +12,7 @@ Estruturas de arquivos
 
 Em go toda execução de programa começa pela função main dentro de um package main, sem essa função o programa vai gerar erro de compilação.
 
+```
 package main
 
 import "fmt"
@@ -19,7 +20,7 @@ import "fmt"
 func main() {
 	fmt.Println("Hello World")
 }
-
+```
 
 Variáveis
 
@@ -32,12 +33,9 @@ Em golang os tipos de dados são estáticos ou seja o tipo não pode ser modific
 tipos que começam com u são do tipo não assinados ou seja só permite valores positivos
  uint8 8-bit unsigned int 
 
-
-
-
 Existe uma forma de criação e atribuição simultaneamente utilizando o operador “:=”.
 
-
+```
 package main
 
 import "fmt"
@@ -46,13 +44,13 @@ func main() {
 	message := "Hello World"
 	fmt.Println(message)
 }
-
+```
 
 Conversão 
 
 Para converter int e float entre eles é possível utilizar apenas parênteses
 
-
+```
 package main
 
 import "fmt"
@@ -69,4 +67,6 @@ func main() {
 	fmt.Println(numeroI)
 }
 ```
+
+
 
